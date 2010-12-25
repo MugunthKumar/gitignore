@@ -1,7 +1,40 @@
 # ReSharper meta directory
 _ReSharper*
 
-# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
-bin
-obj
+#OS junk files
+[Tt]humbs.db
 
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+[Bb]in
+[Oo]bj
+[Dd]ebug*/
+[Rr]elease*/
+
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.suo
+*.csproj.user
+*.resharper.user
+*.resharper*.suo
+*.cache
+
+# Office Temp Files
+~$*
